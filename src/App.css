@@ -1,12 +1,49 @@
 
-
 .banner {
   width: 100%;
   max-height: 340px;
   text-align: center;
 }
 
-/* =========STORY PAGE=============== */
+
+/* * NAVBAR * NAVBAR * NAVBAR * NAVBAR * NAVBAR * NAVBAR * NAVBAR * NAVBAR *  */
+.navbar{
+  width: 1440px;
+  height: 84px;
+  background-color:lightblue;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+}
+ul{
+  margin: auto;
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  padding: auto;
+}
+
+/* * MENU * MENU * MENU * MENU * MENU * MENU * MENU * MENU  *  */
+.menu-area{
+  background-color: lightgoldenrodyellow;
+  width: 1440px;
+  height: 1180px;
+  border: solid 1px #000000;
+}
+
+.third-width{
+  width: 420px;
+  height: 480px;
+  border: solid 1px #000000;
+
+}
+
+/* * STORY * STORY * STORY * STORY * STORY * STORY * STORY * STORY */
 
 .story-page {
   display: grid;
