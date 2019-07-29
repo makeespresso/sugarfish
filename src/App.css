@@ -1,6 +1,8 @@
 /* .App {
   text-align: center;
 } */
+
+/* * NAVBAR * NAVBAR * NAVBAR * NAVBAR * NAVBAR * NAVBAR * NAVBAR * NAVBAR *  */
 .navbar{
   width: 1440px;
   height: 84px;
@@ -19,4 +21,28 @@ ul{
   display: flex;
   /* flex-direction: row; */
   justify-content: space-around;
+  padding: auto;
 }
+
+/* * MENU * MENU * MENU * MENU * MENU * MENU * MENU * MENU  *  */
+.menu-area{
+  background-color: lightgoldenrodyellow;
+  width: 1440px;
+  height: 1180px;
+  border: solid 1px #000000;
+}
+
+.banner{
+  width: 1440px;
+  height: 340px;
+  border: solid 1px #979797;
+}
+
+.third-width{
+  width: 420px;
+  height: 480px;
+  border: solid 1px #000000;
+
+}
+
+
