@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Menu from './components/Menu';
 import Story from './components/Story';
+import Footer from './components/Footer';
 import Location from './components/Location';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Story />
       <Menu />
       <Location />
+      <Footer />
     </div>
   );
 }
