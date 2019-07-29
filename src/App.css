@@ -9,9 +9,14 @@
 a{
   text-decoration: none;
 }
+a:visited{
+  color: black;
+}
 ul{
+  margin: auto;
+  text-align: center;
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-around;
 }
