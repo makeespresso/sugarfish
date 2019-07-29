@@ -81,3 +81,15 @@ grid-column-end: 3;
   box-sizing: border-box;
   border: 1px solid black;
 }
+
+/* * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION *  */
+.quarter-div-img{
+  width: 630px;
+  height: 420px;
+}
+
+half-vertical-div{
+  width: 720px;
+  height: 1024px;
+  background-color: yellow;
+}
