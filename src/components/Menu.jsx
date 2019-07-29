@@ -3,7 +3,10 @@ import React from 'react';
 export default () => {
   return (
     <>
-      <div className="banner"></div>
+      <div className="banner">
+        <h2>Menu</h2>
+        <img src="/img/desktop_view_menu_banner.png" alt="Menu-banner" />
+      </div>
       <div className="menu-area">
         <div className="third-width">
           <p>TRUST</p>
