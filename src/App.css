@@ -1,6 +1,6 @@
 
 .banner {
-  width: 100%;
+  width: 100vw;
   max-height: 340px;
   text-align: center;
 }
@@ -55,14 +55,28 @@ ul{
 }
 
 .story-banner {
-background-image: url(./assets/desktop_view_story_banner.png);
 height: 340px;
 grid-column-start: 1;
 grid-column-end: 3;
+position: relative;
+}
+
+.banner-img {
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.banner-title {
+  position: absolute;
+  top: 45%;
+  right: 40%;
+  z-index: 2;
+  color: white;
 }
 
 .some-fish {
-  width: 100%;
+  width: 1440%;
 }
 
 .nozawa {
