@@ -9,14 +9,16 @@ const Footer = () => {
         <p>New York, 10003</p>
         <p>Phone: (347)-705-8100</p>
       </div>
-      <div className="footer-nav">
-        <p>Story</p>
-        <p>Menu</p>
-        <p>Contact</p>
-        <p>Order</p>
-        <p>Site Map</p>
+      <div className="footer-center">
+        <div className="footer-nav">
+          <p>Story</p>
+          <p>Menu</p>
+          <p>Contact</p>
+          <p>Order</p>
+          <p>Site Map</p>
+        </div>
+        <p>Copyright © Sushi Nozawa, LLC. All rights reserved.     Privacy Policy  |  Terms of Use</p>
       </div>
-      <p>Copyright © Sushi Nozawa, LLC. All rights reserved.     Privacy Policy  |  Terms of Use</p>
       <div className="social-media">
         <img src="https://img.icons8.com/officel/48/000000/facebook.png" />
         <img src="https://img.icons8.com/color/48/000000/twitter.png" />
