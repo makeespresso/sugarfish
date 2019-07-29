@@ -3,8 +3,8 @@ import React from 'react';
 export default () => {
   return (
     <>
-      <div className="banner">
-        <h2>Menu</h2>
+      <div className="banner story-banner">
+        <h2 className="banner-title">MENU</h2>
         <img src="/img/desktop_view_menu_banner.png" alt="Menu-banner" />
       </div>
       <div className="menu-area">
