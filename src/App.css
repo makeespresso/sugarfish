@@ -10,8 +10,13 @@
 .navbar{
   width: 1440px;
   height: 84px;
-  background-color:lightblue;
+  background-color: #FFFFFF;
+  position: fixed;
+  z-index: 3;
+  box-sizing: border-box;
+  padding-top: 1.5%;
 }
+
 a{
   text-decoration: none;
 }
@@ -19,13 +24,16 @@ a:visited{
   color: black;
 }
 ul{
+  width: 100vw;
   margin: auto;
   text-align: center;
   list-style-type: none;
   display: flex;
-  /* flex-direction: row; */
-  justify-content: space-around;
+  flex-direction: row;
   padding: auto;
+  position: absolute;
+  width: 100%;
+  justify-content: space-around;
 }
 
 /* * MENU * MENU * MENU * MENU * MENU * MENU * MENU * MENU  *  */
