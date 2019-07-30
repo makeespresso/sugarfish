@@ -49,8 +49,8 @@ export default () => {
         </div>
         <div className="third-width">
           <div className="left-side-items">
-            <p>Sashimi + Edamame</p>
-            <p><b>Organic Edamame</b></p>
+            <p><b>Sashimi + Edamame</b></p>
+            <p>Organic Edamame</p>
             <p>Salmon Sashimi</p>
             <p>Tuna Sashimi</p>
             <br></br>
@@ -87,7 +87,7 @@ export default () => {
           </div >
         </div >
         <div className="third-width">
-          <div className="small-banner">
+          <div className="small-menu-banner">
             <p>Dont’t Think. Just Eat.</p>
             <p>$63.00</p>
           </div>
