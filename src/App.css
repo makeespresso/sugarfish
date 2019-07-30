@@ -58,8 +58,8 @@ ul{
 }
 
 .left-side-items{
-  background-color: aliceblue;
-position: absolute;
+  background-color: pink;
+  position: absolute;
   width: 300px;
 }
 
@@ -74,6 +74,18 @@ position: absolute;
   height: 120px;
   text-align: center;
   padding: auto;
+}
+
+.small-left-side-items{
+  background-color: aqua;
+  position: absolute;
+  width: 260px;
+}
+.small-right-side-price{
+  background-color:green;
+  margin: 0 auto;
+  width: 168px;
+  float: right;
 }
 
 /* * STORY * STORY * STORY * STORY * STORY * STORY * STORY * STORY */
