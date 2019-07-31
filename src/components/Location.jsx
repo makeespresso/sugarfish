@@ -5,10 +5,9 @@ export default () => {
     <div className="location-section">
       <div className="banner location-banner">
         <img src="/img/desktop_view_location_banner.png" />
-        <h2>LOCATION</h2>
       </div>
       <div className="location-img-container">
-        <div className="quarter-div-img">
+        <div className="location-img-top">
           <img src="/img/desktop_view_location_1.png" alt="location_1"></img>
         </div>
         <div className="quarter-div-img">
