@@ -17,7 +17,6 @@
   position: fixed;
   z-index: 3;
   box-sizing: border-box;
-  padding-top: 1.5%;
 }
 
 a{
@@ -26,17 +25,32 @@ a{
 a:visited{
   color: black;
 }
+
 ul{
-  width: 100vw;
+  height: 84px;
   margin: auto;
   text-align: center;
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding: auto;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   justify-content: space-around;
+  box-sizing: border-box;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.fish-logo {
+  height: 84px;
+  margin-top: 10px;
+}
+
+.fish-logo img {
+  height: 80%;
 }
 
 /* * MENU * MENU * MENU * MENU * MENU * MENU * MENU * MENU  *  */
