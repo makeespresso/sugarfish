@@ -1,10 +1,10 @@
 .App {
   font-family: 'Quattrocento Sans', sans-serif;
+  text-align: center;
 }
 
 .banner {
   width: 100vw;
-  max-height: 340px;
   text-align: center;
 }
 
@@ -52,6 +52,17 @@ ul{
 .fish-logo img {
   height: 80%;
 }
+
+/* * HEADER * HEADER * HEADER * HEADER * HEADER * HEADER * HEADER * HEADER  */
+.header {
+  width: 100vw;
+}
+
+.header img {
+  width: 100%;
+}
+
+
 
 /* * MENU * MENU * MENU * MENU * MENU * MENU * MENU * MENU  *  */
 .menu-area{
@@ -108,24 +119,23 @@ ul{
 /* * STORY * STORY * STORY * STORY * STORY * STORY * STORY * STORY */
 
 .story-page {
+  width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 340px 1024px;
-  grid-row-gap: 24px;
+  grid-template-rows: 1fr 3fr;
+  grid-row-gap: 18px;
   border: 1px solid black;
 }
 
 .story-banner {
-height: 340px;
+width: 100%;
 grid-column-start: 1;
 grid-column-end: 3;
 position: relative;
 }
 
-.banner-img {
-position: absolute;
-top: 0;
-left: 0;
+.story-banner img {
+  width: 100%;
 }
 
 .banner-title {
@@ -134,10 +144,6 @@ left: 0;
   right: 40%;
   z-index: 2;
   color: white;
-}
-
-.some-fish {
-  width: 100%;
 }
 
 .nozawa {
@@ -149,33 +155,22 @@ left: 0;
 .story-text {
   grid-row-start: 2;
   width: 100%;
-  height: 884px;
   font-size: 32px;
   letter-spacing: 0.9px;
   padding: 55px 5%;
   box-sizing: border-box;
-  border: 1px solid black;
+  align-content: center; 
 }
 
-/* * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION *  */
-.quarter-div-img{
-  width: 630px;
-  height: 420px;
-}
-
-half-vertical-div{
-  width: 720px;
-  height: 1024px;
-  background-color: yellow;
-}
 
 /* * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION  */
 
 .location-section {
   width: 100vw;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 68px;
 }
 
 .location-banner {
@@ -185,14 +180,23 @@ half-vertical-div{
 
 .location-img-container {
   grid-column-start: 1;
+  grid-row-start: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
+.location-img-top {
+  margin-bottom: 34px;
+}
+
 .location-info {
   grid-column-start: 2;
-  font-size: 28px;
+  font-size: 24px;
+}
+
+.location-info h3 {
+  margin-top: 0;
 }
 
 
