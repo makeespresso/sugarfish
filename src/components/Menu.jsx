@@ -8,8 +8,8 @@ export default () => {
         <img src="/img/desktop_view_menu_banner.png" alt="Menu-banner" />
       </div>
       <div className="menu-area">
-        <div className="third-width">
-          <p>TRUST</p>
+        <div className="third-width special-three">
+          <p>TURST</p>
           <p>Organic Edamame</p>
           <p>Tuna Sashimi</p>
           <p>Albacore Sushi (2-pc)</p>
@@ -21,7 +21,7 @@ export default () => {
           <p>Crab Hand Roll</p>
           <p>$40</p>
         </div>
-        <div className="third-width">
+        <div className="third-width special-three">
           <p>TURST ME LITE</p>
           <p>Organic Edamame</p>
           <p>Tuna Sashimi</p>
@@ -34,7 +34,7 @@ export default () => {
           <p>Crab Hand Roll</p>
           <p>$28</p>
         </div>
-        <div className="third-width">
+        <div className="third-width special-three">
           <p>THE NOZAWA</p>
           <p>Organic Edamame</p>
           <p>Tuna Sashimi</p>
@@ -50,41 +50,23 @@ export default () => {
         <div className="third-width">
           <div className="left-side-items">
             <p><b>Sashimi + Edamame</b></p>
-            <p>Organic Edamame</p>
-            <p>Salmon Sashimi</p>
-            <p>Tuna Sashimi</p>
+            <p className="p-height">Organic Edamame <span>$3.50</span></p>
+            <p className="p-height">Salmon Sashimi <span>$9.25</span></p>
+            <p className="p-height">Tuna Sashimi <span>$10.00</span></p>
             <br></br>
             <p><b>Sushi ( 2 pieces per order )</b></p>
-            <p>Bay Scallops</p>
-            <p>Nozawa-style Shrimp</p>
-            <p>Tuna</p>
-            <p>Unagi</p>
-            <p>Albacore</p>
-            <p>Large Scallops</p>
-            <p>Salmon</p>
-            <p>NZ Sea Bream*</p>
-            <p>Sea Bass</p>
-            <p>Salmon Kombu</p>
-            <p>Yellowtail*</p>
+            <p className="p-height">Bay Scallops <span>$6.00</span></p>
+            <p className="p-height">Nozawa-style Shrimp <span>$6.50</span></p>
+            <p className="p-height">Tuna <span>$6.75</span></p>
+            <p className="p-height">Unagi <span>$6.75</span></p>
+            <p className="p-height">Albacore<span>$7.00</span></p>
+            <p className="p-height">Large Scallops <span>$7.00</span></p>
+            <p className="p-height">Salmon <span>$7.00</span></p>
+            <p className="p-height">NZ Sea Bream* <span>$7.25</span></p>
+            <p className="p-height">Sea Bass <span>$7.25</span></p>
+            <p className="p-height">Salmon Kombu <span>$7.50</span></p>
+            <p className="p-height">Yellowtail* <span>$7.50</span></p>
           </div>
-          <div className="rigth-side-price">
-            <p>$3.50</p>
-            <p>$9.25</p>
-            <p>$10.00</p>
-            <br></br>
-            <br></br>
-            <p>$6.00</p>
-            <p>$6.50</p>
-            <p>$6.75</p>
-            <p>$6.75</p>
-            <p>$7.00</p>
-            <p>$7.00</p>
-            <p>$7.00</p>
-            <p>$7.25</p>
-            <p>$7.25</p>
-            <p>$7.50</p>
-            <p>$7.50</p>
-          </div >
         </div >
         <div className="third-width">
           <div className="small-menu-banner">
@@ -103,7 +85,7 @@ export default () => {
             <p>Split Cut Roll</p>
           </div>
           <div className="small-right-side-price">
-            <p><small>Hand</small>    <small>Cut 8-pc</small></p>
+            <p><small><b>Hand</b></small>    <small><b>Cut 8-pc</b></small></p>
             <p>$5.25 $9.50</p>
             <p>$5.75 $11.25</p>
             <p>$5.75 $11.25</p>
@@ -111,35 +93,22 @@ export default () => {
             <p>$6.50 $12.25</p>
             <p>$6.50 $12.25</p>
             <p>$9.50 $18.25</p>
-            <p>$16.50</p>
+            <p><span>$16.50</span></p>
           </div>
         </div>
         <div className="third-width">
-          <p>LIMITED AVAILABILITY ITEMS</p>
+          <p className="limited-title">LIMITED AVAILABILITY ITEMS</p>
           <div className="left-side-items">
-            <p>Albacore Belly</p>
-            <p>Kampachi</p>
-            <p>NZ Sea Bream* with Shiso</p>
-            <p>Oyster (Sashimi)</p>
-            <p>Salmon Eggs</p>
-            <p>Sweet Shrimp</p>
-            <p>Ankimo (Sashimi)</p>
-            <p>Anago</p>
-            <p>Uni</p>
-            <p>Toro</p>
-          </div>
-          <div className="rigth-side-price">
-            <p>$7.50</p>
-            <p>$8.00</p>
-            <p>$8.00</p>
-            <p>$8.00</p>
-            <p>$8.25</p>
-            <p>$9.25</p>
-            <p>$9.75</p>
-            <p>$10.00</p>
-            <p>$20.00</p>
-            <p>$10-$16</p>
-
+            <p>Albacore Belly <span>$7.50</span></p>
+            <p>Kampachi<span>$8.00</span></p>
+            <p>NZ Sea Bream* with Shiso<span>$8.00</span></p>
+            <p>Oyster (Sashimi)<span>$8.00</span></p>
+            <p>Salmon Eggs<span>$8.25</span></p>
+            <p>Sweet Shrimp<span>$9.25</span></p>
+            <p>Ankimo (Sashimi)<span>$9.75</span></p>
+            <p>Anago <span>$10.00</span></p>
+            <p>Uni <span>$20.00</span></p>
+            <p>Toro <span>$10-$16</span></p>
           </div>
         </div>
 
