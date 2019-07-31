@@ -20,10 +20,10 @@ const Footer = () => {
         <p>Copyright © Sushi Nozawa, LLC. All rights reserved.     Privacy Policy  |  Terms of Use</p>
       </div>
       <div className="social-media">
-        <img src="https://img.icons8.com/officel/48/000000/facebook.png" />
-        <img src="https://img.icons8.com/color/48/000000/twitter.png" />
-        <img src="https://img.icons8.com/ios-filled/48/000000/instagram.png" />
-        <img src="https://img.icons8.com/color/48/000000/pinterest.png" />
+        <a href="https://www.facebook.com/SugarfishFlatiron/" target="_blank"><img src="https://img.icons8.com/officel/48/000000/facebook.png" /></a>
+        <a href="https://twitter.com/sugarfish" target="_blank"><img src="https://img.icons8.com/color/48/000000/twitter.png" /></a>
+        <a href="https://www.instagram.com/sugarfishbynozawa/" target="_blank"><img src="https://img.icons8.com/ios-filled/48/000000/instagram.png" /></a>
+        <a href="https://www.pinterest.com/kazunorinozawa/sugarfish/" target="_blank"><img src="https://img.icons8.com/color/48/000000/pinterest.png" /></a>
       </div>
     </div>
   )
