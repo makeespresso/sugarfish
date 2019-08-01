@@ -1,6 +1,6 @@
+
 .App {
   font-family: 'Quattrocento Sans', sans-serif;
-  /* text-align: center; */
 }
 
 .banner {
@@ -8,6 +8,9 @@
   text-align: center;
 }
 
+.bm-burger-button {
+  display: none;
+}
 
 /* * NAVBAR * NAVBAR * NAVBAR * NAVBAR * NAVBAR * NAVBAR * NAVBAR * NAVBAR *  */
 .navbar{
@@ -144,7 +147,6 @@ align-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 3fr;
   grid-row-gap: 18px;
-  border: 1px solid black;
 }
 
 .story-banner {
@@ -187,7 +189,7 @@ position: relative;
 .location-section {
   width: 100vw;
   display: grid;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 3fr;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 68px;
 }
@@ -195,6 +197,11 @@ position: relative;
 .location-banner {
   grid-column-start: 1;
   grid-column-end: 3;
+  width: 100vw;
+}
+
+.location-banner img {
+  width: 100%;
 }
 
 .location-img-container {
@@ -203,15 +210,37 @@ position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+  padding-top: 10%;
 }
+
 
 .location-img-top {
   margin-bottom: 34px;
 }
 
 .location-info {
+  box-sizing: border-box;
   grid-column-start: 2;
-  font-size: 24px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.location-info h3 {
+  font-size: 60px;
+}
+
+.location-info div {
+  text-align: center;
+  line-height: 15px;
+}
+
+.location-info img {
+  width: 75px;
 }
 
 .location-info h3 {
@@ -247,6 +276,40 @@ position: relative;
   justify-content: space-around;
 }
 
+@media only screen and (max-width: 1300px){
+  .story-text {
+    font-size: 30px;
+    letter-spacing: 0.9px;
+    padding: 20px 5%;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .story-text {
+    font-size: 28px;
+  }
+  .location-info h3 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 1100px){
+  .story-text {
+    font-size: 24px;
+  }
+  .location-info h3 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  .story-text {
+    font-size: 22px;
+  }
+  .location-info h3 {
+    font-size: 35px;
+  }
+}
 
 @media only screen and (max-width: 320px){
 
