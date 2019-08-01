@@ -68,12 +68,13 @@ ul{
 .menu-area{
   background-color: white;
   width: 100%;
-  /* height: 1180px; */
+  height: 1180px;
   border: solid 1px #000000;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  flex-flow: row wrap;
+  justify-content: center;
   margin: auto;
+  align-items: center;
 }
 
 .third-width{
@@ -96,6 +97,15 @@ ul{
 .special-three{
 color: white;
 text-align: center;
+font-size: 24px;
+
+}
+.special-three span{
+  font-size: 43px;
+}
+
+.special-price{
+  font-size: 36px;
 }
 
 .left-side-items{
@@ -110,10 +120,11 @@ float: right;
 }
 
 .small-menu-banner{
-  background-color:yellow;
   height: 120px;
   text-align: center;
   padding: auto;
+  font-size: 36px;
+  line-height: 10px;
 }
 
 .small-menu-banner{
@@ -134,6 +145,8 @@ align-items: center;
 
 .limited-title{
  text-align: center;
+ font-size: 24px;
+  font-weight: bold;
 }
 
 /* * STORY * STORY * STORY * STORY * STORY * STORY * STORY * STORY */

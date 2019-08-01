@@ -9,7 +9,7 @@ export default () => {
       </div>
       <div className="menu-area">
         <div className="third-width special-three">
-          <p>TURST</p>
+          <p><span>TURST ME</span></p>
           <p>Organic Edamame</p>
           <p>Tuna Sashimi</p>
           <p>Albacore Sushi (2-pc)</p>
@@ -19,10 +19,10 @@ export default () => {
           <p>Sea Bass Sushi (1-pc)</p>
           <p>NZ Sea Bream* Sushi (1-pc)</p>
           <p>Crab Hand Roll</p>
-          <p>$40</p>
+          <p className="special-price">$40</p>
         </div>
         <div className="third-width special-three">
-          <p>TURST ME LITE</p>
+          <p><span>TURST ME LITE</span></p>
           <p>Organic Edamame</p>
           <p>Tuna Sashimi</p>
           <p>Albacore Sushi (2-pc)</p>
@@ -32,10 +32,10 @@ export default () => {
           <p>Sea Bass Sushi (1-pc)</p>
           <p>NZ Sea Bream* Sushi (1-pc)</p>
           <p>Crab Hand Roll</p>
-          <p>$28</p>
+          <p className="special-price">$28</p>
         </div>
         <div className="third-width special-three">
-          <p>THE NOZAWA</p>
+          <p><span>THE NOZAWA</span></p>
           <p>Organic Edamame</p>
           <p>Tuna Sashimi</p>
           <p>Albacore Sushi (2-pc)</p>
@@ -45,7 +45,7 @@ export default () => {
           <p>Sea Bass Sushi (1-pc)</p>
           <p>NZ Sea Bream* Sushi (1-pc)</p>
           <p>Crab Hand Roll</p>
-          <p>$52</p>
+          <p className="special-price">$52</p>
         </div>
         <div className="third-width">
           <div className="left-side-items">
@@ -70,7 +70,7 @@ export default () => {
         </div >
         <div className="third-width">
           <div className="small-menu-banner">
-            <p>Dont’t Think. Just Eat.</p>
+            <p><b>Dont’t Think. Just Eat.</b></p>
             <p>$63.00</p>
           </div>
           <div className="small-left-side-items">
@@ -93,7 +93,7 @@ export default () => {
             <p>$6.50 $12.25</p>
             <p>$6.50 $12.25</p>
             <p>$9.50 $18.25</p>
-            <p><span>$16.50</span></p>
+            <p>$10.00-$16.50</p>
           </div>
         </div>
         <div className="third-width">
