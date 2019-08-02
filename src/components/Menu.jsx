@@ -10,45 +10,46 @@ export default () => {
       <div className="menu-area">
         <div className="third-width special-three">
           <p><span>TURST ME</span></p>
-          <p>Organic Edamame</p>
-          <p>Tuna Sashimi</p>
-          <p>Albacore Sushi (2-pc)</p>
-          <p>Salmon Sushi (2-pc) </p>
-          <p>Toro Hand Roll </p>
-          <p>Yellowtail* Sushi (2-pc)</p>
-          <p>Sea Bass Sushi (1-pc)</p>
-          <p>NZ Sea Bream* Sushi (1-pc)</p>
-          <p>Crab Hand Roll</p>
+          <p className="p-height">Organic Edamame</p>
+          <p className="p-height">Tuna Sashimi</p>
+          <p className="p-height">Albacore Sushi (2-pc)</p>
+          <p className="p-height">Salmon Sushi (2-pc) </p>
+          <p className="p-height">Toro Hand Roll </p>
+          <p className="p-height">Yellowtail* Sushi (2-pc)</p>
+          <p className="p-height">Sea Bass Sushi (1-pc)</p>
+          <p className="p-height">NZ Sea Bream* Sushi (1-pc)</p>
+          <p className="p-height">Crab Hand Roll</p>
           <p className="special-price">$40</p>
         </div>
         <div className="third-width special-three">
           <p><span>TURST ME LITE</span></p>
-          <p>Organic Edamame</p>
-          <p>Tuna Sashimi</p>
-          <p>Albacore Sushi (2-pc)</p>
-          <p>Salmon Sushi (2-pc) </p>
-          <p>Toro Hand Roll </p>
-          <p>Yellowtail* Sushi (2-pc)</p>
-          <p>Sea Bass Sushi (1-pc)</p>
-          <p>NZ Sea Bream* Sushi (1-pc)</p>
-          <p>Crab Hand Roll</p>
+          <p className="p-height">Organic Edamame</p>
+          <p className="p-height">Tuna Sashimi</p>
+          <p className="p-height">Albacore Sushi (2-pc)</p>
+          <p className="p-height">Salmon Sushi (2-pc) </p>
+          <p className="p-height">Toro Hand Roll </p>
+          <p className="p-height">Yellowtail* Sushi (2-pc)</p>
+          <p className="p-height">Sea Bass Sushi (1-pc)</p>
+          <p className="p-height">NZ Sea Bream* Sushi (1-pc)</p>
+          <p className="p-height">Crab Hand Roll</p>
           <p className="special-price">$28</p>
         </div>
         <div className="third-width special-three">
           <p><span>THE NOZAWA</span></p>
-          <p>Organic Edamame</p>
-          <p>Tuna Sashimi</p>
-          <p>Albacore Sushi (2-pc)</p>
-          <p>Salmon Sushi (2-pc) </p>
-          <p>Toro Hand Roll </p>
-          <p>Yellowtail* Sushi (2-pc)</p>
-          <p>Sea Bass Sushi (1-pc)</p>
-          <p>NZ Sea Bream* Sushi (1-pc)</p>
-          <p>Crab Hand Roll</p>
+          <p className="p-height">Organic Edamame</p>
+          <p className="p-height">Tuna Sashimi</p>
+          <p className="p-height">Albacore Sushi (2-pc)</p>
+          <p className="p-height">Salmon Sushi (2-pc) </p>
+          <p className="p-height">Toro Hand Roll </p>
+          <p className="p-height">Yellowtail* Sushi (2-pc)</p>
+          <p className="p-height">Sea Bass Sushi (1-pc)</p>
+          <p className="p-height">NZ Sea Bream* Sushi (1-pc)</p>
+          <p className="p-height">Crab Hand Roll</p>
           <p className="special-price">$52</p>
+
         </div>
         <div className="third-width">
-          <div className="left-side-items">
+          <div className="inside-items">
             <p><b>Sashimi + Edamame</b></p>
             <p className="p-height">Organic Edamame <span>$3.50</span></p>
             <p className="p-height">Salmon Sashimi <span>$9.25</span></p>
@@ -85,14 +86,14 @@ export default () => {
             <p>Split Cut Roll</p>
           </div>
           <div className="small-right-side-price">
-            <p><small><b>Hand</b></small>    <small><b>Cut 8-pc</b></small></p>
-            <p>$5.25 $9.50</p>
-            <p>$5.75 $11.25</p>
-            <p>$5.75 $11.25</p>
-            <p>$6.00 $11.50</p>
-            <p>$6.50 $12.25</p>
-            <p>$6.50 $12.25</p>
-            <p>$9.50 $18.25</p>
+            <p><small><b>Hand</b></small> <span><small><b>Cut 8-pc</b></small></span></p>
+            <p>$5.25 <span>$9.50</span></p>
+            <p>$5.75 <span>$11.25</span></p>
+            <p>$5.75 <span>$11.25</span></p>
+            <p>$6.00 <span>$11.50</span></p>
+            <p>$6.50 <span>$12.25</span></p>
+            <p>$6.50 <span>$12.25</span></p>
+            <p>$9.50 <span>$18.25</span></p>
             <p>$10.00-$16.50</p>
           </div>
         </div>

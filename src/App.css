@@ -78,10 +78,8 @@ ul{
 }
 
 .third-width{
-  border: solid 1px #000000;
   height: 480px;
   width: 420px;
-  background-color: purple;
   padding: 10px;
   margin: 10px;
 }
@@ -90,14 +88,17 @@ ul{
   line-height: 10px;
 }
 
+.nozawa-height{
+  line-height: 5px;
+}
 .p-padding{
   padding-top: 7px;
 }
 
 .special-three{
-color: white;
 text-align: center;
 font-size: 24px;
+border: solid black 1px;
 
 }
 .special-three span{
@@ -108,14 +109,12 @@ font-size: 24px;
   font-size: 36px;
 }
 
-.left-side-items{
-  background-color: pink;
-  position: absolute;
+.inside-items{
+position: absolute;
 width:420px
 }
 
 .left-side-items p span{
-  color:red;
 float: right;
 }
 
@@ -137,17 +136,21 @@ align-items: center;
   width: 260px;
 }
 .small-right-side-price{
-  background-color:green;
   margin: 0 auto;
   width: 168px;
   float: right;
 }
 
+.small-right-side-price span{
+/* word-spacing: 15px; */
+margin-left: 18px;
+}
 .limited-title{
  text-align: center;
  font-size: 24px;
   font-weight: bold;
 }
+
 
 /* * STORY * STORY * STORY * STORY * STORY * STORY * STORY * STORY */
 
