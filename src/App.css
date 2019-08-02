@@ -204,9 +204,9 @@ position: relative;
 .story-text {
   grid-row-start: 2;
   width: 100%;
-  font-size: 32px;
+  font-size: 2.2vw;
   letter-spacing: 0.9px;
-  padding: 55px 5%;
+  padding: 10% 5%;
   box-sizing: border-box;
   align-content: center; 
 }
@@ -226,12 +226,21 @@ position: relative;
   grid-column-end: 3;
 }
 
+.location-banner img {
+  width: 100%;
+}
+
 .location-img-container {
   grid-column-start: 1;
   grid-row-start: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+}
+
+.location-img-container img {
+  width: 80%;
 }
 
 .location-img-top {
@@ -240,10 +249,29 @@ position: relative;
 
 .location-info {
   grid-column-start: 2;
-  font-size: 24px;
+  font-size: 2.3vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.location-info div {
+  margin: 1vh 0;
+}
+
+.location-info p {
+  margin: 0;
+}
+
+.location-info img {
+  width: 75px;
 }
 
 .location-info h3 {
+  font-size: 3.2vw;
   margin-top: 0;
 }
 
