@@ -1,11 +1,24 @@
 .App {
   font-family: 'Quattrocento Sans', sans-serif;
+  /* max-width: 1440px; */
   /* text-align: center; */
 }
 
 .banner {
   width: 100vw;
   text-align: center;
+  top:24px;
+}
+
+
+
+/* CAROUSEL */
+.tester {
+  width: 100vw;
+}
+
+.tester img{
+  width:100%;
 }
 
 
