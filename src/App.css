@@ -60,6 +60,7 @@ ul{
 .fish-logo {
   height: 84px;
   margin-top: 10px;
+  position: absolute;
 }
 
 .fish-logo img {
@@ -167,20 +168,10 @@ margin-left: 18px;
 
 /* * STORY * STORY * STORY * STORY * STORY * STORY * STORY * STORY */
 
-.story-page {
-  width: 100vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 3fr;
-  grid-row-gap: 18px;
-  border: 1px solid black;
-}
 
 .story-banner {
-width: 100%;
-grid-column-start: 1;
-grid-column-end: 3;
-position: relative;
+  width: 100%;
+  position: relative;
 }
 
 .story-banner img {
@@ -194,21 +185,31 @@ position: relative;
   z-index: 2;
   color: white;
 }
-
-.nozawa {
-  grid-row-start: 2;
+.story-page {
+  width: 100vw;
   border: 1px solid black;
+  display: flex;
+}
+
+.chef {
   width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 5% 5% 5% 15%;
+}
+.nozawa {
+/* width: 100%; */
+height: 85vh;
 }
 
 .story-text {
-  grid-row-start: 2;
   width: 100%;
-  font-size: 2.2vw;
+  font-size: 1em;
   letter-spacing: 0.9px;
-  padding: 10% 5%;
+  padding: 10% 15% 10% 5%;
   box-sizing: border-box;
   align-content: center; 
+  margin: 0 auto;
 }
 
 /* * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION  */
