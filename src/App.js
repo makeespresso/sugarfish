@@ -15,7 +15,7 @@ function App() {
       <Header />
       <PicCarousel />
       <Story />
-      <Menu />
+      {/* <Menu /> */}
       <Location />
       <Footer />
     </div>
