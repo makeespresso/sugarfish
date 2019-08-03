@@ -1,8 +1,23 @@
-.App {
-  font-family: 'Quattrocento Sans', sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
   /* max-width: 1440px; */
   /* text-align: center; */
-}
+ }
+ body{
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100vw;
+ }
+ .App {
+  font-family: “Quattrocento Sans”, sans-serif;
+  background-color: darkgray;
+  height: 100vh;
+  width: 80vw;
+ }
 
 .banner {
   width: 100vw;
@@ -10,11 +25,13 @@
   top:24px;
 }
 
-
+.bm-burger-button {
+  display: none;
+}
 
 /* CAROUSEL */
 .tester {
-  width: 85vw;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -187,7 +204,7 @@ margin-left: 18px;
   color: white;
 }
 .story-page {
-  width: 100vw;
+  width: 100%;
   border: 1px solid black;
   display: flex;
 }
@@ -196,7 +213,7 @@ margin-left: 18px;
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 5% 5% 5% 10%;
+  padding: 5% 0;
 }
 .nozawa {
   width: 100%;
@@ -206,7 +223,7 @@ margin-left: 18px;
   width: 100%;
   font-size: 1.1vw;
   letter-spacing: 0.9px;
-  padding: 5% 10% 10% 5%;
+  padding: 5% 5% 2% 5%;
   box-sizing: border-box;
   align-content: center; 
   margin: 0 auto;
@@ -215,13 +232,13 @@ margin-left: 18px;
 /* * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION * LOCATION  */
 
 .location-section {
-  width: 100vw;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 5%;
   margin-top: 5%;
   box-sizing: border-box;
-  padding: 0 10% 0 10%;
+  /* padding: 0 10% 0 10%; */
 }
 
 .location-banner-title {
