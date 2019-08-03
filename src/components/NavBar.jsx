@@ -4,8 +4,8 @@ import Burger from './Burger';
 export default () => {
   return (
     <div>
-      <div className="navbar">
-        <ul>
+      <div className="navbar space">
+        <ul className="flexSARND">
           <li className="navbar-link"><a href="#">Story</a></li>
           <li className="navbar-link"><a href="#">Menu</a></li>
           <li className="fish-logo"><a href="#"><img src="/img/sugar-logo.png" alt="Sugarfish-logo" /></a></li>
