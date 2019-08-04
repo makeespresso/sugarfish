@@ -2,7 +2,7 @@ import React from 'react';
 
 const Story = () => {
   return (
-    <>
+    <div id="story-page">
       <div className="banner story-banner">
         <h2 className="banner-title">OUR STORY</h2>
         <img className="banner-img" src="/img/desktop_view_story_banner.png" alt="a bunch of fish" />
@@ -18,7 +18,7 @@ const Story = () => {
           <p>Zagat rated “Most Popular Restaurant in Los Angeles” Kazunori Nozawa and Jerry A. Greenberg founded Sushi Nozawa, LLC. These two have been friends for decades and their plan was to take the food Chef Nozawa perfected at his namesake restaurant, Sushi Nozawa located in Studio City and make it more accessible while remaining 100% committed to quality food.</p>
         </div>
       </div>
-    </>
+    </div >
   )
 }
 

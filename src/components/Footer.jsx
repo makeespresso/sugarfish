@@ -11,11 +11,11 @@ const Footer = () => {
       </div>
       <div className="footer-center">
         <div className="footer-nav">
-          <p>Story</p>
-          <p>Menu</p>
-          <p>Contact</p>
-          <p>Order</p>
-          <p>Site Map</p>
+          <a href="#story"><p>Story</p></a>
+          <a href="#menu"><a><p>Menu</p></a>
+            <a href="#location"><p>Contact</p></a>
+            <a href="https://postmates.com/merchant/sugarfish-new-york-2"><p>Order</p></a>
+            <a href="#"></a><p>Site Map</p></a>
         </div>
         <p>Copyright © Sushi Nozawa, LLC. All rights reserved.     Privacy Policy  |  Terms of Use</p>
       </div>
