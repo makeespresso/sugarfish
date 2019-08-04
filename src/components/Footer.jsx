@@ -11,11 +11,11 @@ const Footer = () => {
       </div>
       <div className="footer-center">
         <div className="footer-nav">
-          <a href="#story"><p>Story</p></a>
-          <a href="#menu"><a><p>Menu</p></a>
-            <a href="#location"><p>Contact</p></a>
-            <a href="https://postmates.com/merchant/sugarfish-new-york-2"><p>Order</p></a>
-            <a href="#"></a><p>Site Map</p></a>
+          <a href="#story-page">Story</a>
+          <a href="#menu">Menu</a>
+          <a href="#location">Contact</a>
+          <a href="https://postmates.com/merchant/sugarfish-new-york-2">Order</a>
+          <a href="#">Site Map</a>
         </div>
         <p>Copyright © Sushi Nozawa, LLC. All rights reserved.     Privacy Policy  |  Terms of Use</p>
       </div>
@@ -25,7 +25,7 @@ const Footer = () => {
         <a href="https://www.instagram.com/sugarfishbynozawa/" target="_blank"><img src="https://img.icons8.com/ios-filled/48/000000/instagram.png" /></a>
         <a href="https://www.pinterest.com/kazunorinozawa/sugarfish/" target="_blank"><img src="https://img.icons8.com/color/48/000000/pinterest.png" /></a>
       </div>
-    </div>
+    </div >
   )
 }
 
