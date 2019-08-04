@@ -442,13 +442,14 @@ font-size: 24px;
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #a90000;
+  background: #373a47;
 }
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
   height: 24px;
   width: 24px;
+  left: 49vw;
 }
 
 /* Color/shape of close button cross */
@@ -467,12 +468,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #FFFFFF;
+  background: #F2F2F2;
   padding: 2.5em 1.5em 0;
   font-size: 2em;
   overflow: hidden;
-  width: 80vw;
-  text-align: left;
+  width: 60vw;
+  text-align: center;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -489,7 +490,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Individual item */
 .bm-item {
   display: inline-block;
-  margin-bottom: 1em;
+  margin-bottom: 2.5vh;
 }
 
 /* Styling of overlay */
