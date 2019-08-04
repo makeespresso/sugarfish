@@ -247,6 +247,7 @@ font-size: 24px;
 .banner-title {
   z-index: 2;
   color: white;
+  font-weight: bold;
   position: absolute;
 }
 .story-page {
