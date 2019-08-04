@@ -46,6 +46,7 @@ body {
 }
 .fish-logo a img {
   height: 3rem;
+  width: auto;
 }
 .navbar {
   position: fixed;
