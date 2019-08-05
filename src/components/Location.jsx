@@ -33,6 +33,11 @@ export default () => {
             <p>Sunday</p>
             <p>12:00 pm - 11:00 pm</p>
           </div>
+          <div>
+            <p>We do not take reservations.</p>
+            <p>Guests will be seated on a first come,</p>
+            <p>first served basis.</p>
+          </div>
         </div>
       </div >
     </div>

@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="footer-center">
         <div className="footer-nav">
           <a href="#story-page">Story</a>
-          <a href="#menu">Menu</a>
+          <a href="#menu-page">Menu</a>
           <a href="#location">Contact</a>
           <a href="https://postmates.com/merchant/sugarfish-new-york-2">Order</a>
           <a href="#">Site Map</a>

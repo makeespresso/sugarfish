@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Menu() {
   return (
-    <div id="menu" className="menu-border">
+    <div id="menu-page" className="menu-border">
       <div className="special-container">
         <div className="special-div">
-          <h3>TURST ME</h3>
+          <h3>TRUST ME</h3>
           <p>Organic Edamame</p>
           <p>Tuna Sashimi</p>
           <p>Albacore Sushi (2-pc)</p>
@@ -18,7 +18,7 @@ export default function Menu() {
           <h4>$40</h4>
         </div>
         <div className="special-div">
-          <h3>TURST ME LITE</h3>
+          <h3>TRUST ME LITE</h3>
           <p>Tuna Sashimi</p>
           <p>Albacore Sushi (2-pc)</p>
           <p>Organic Edamame</p>
