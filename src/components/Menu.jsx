@@ -3,11 +3,11 @@ import React from 'react'
 export default function Menu() {
   return (
     <>
-      <div className="banner story-banner">
+      <div id="menu-page" className="banner story-banner">
         <h2 className="banner-title">MENU</h2>
         <img className="banner-img" src="/img/desktop_view_menu_banner.png" alt="a bunch of fish" />
       </div>
-      <div id="menu">
+      <div>
         <div className="menu-border">
           <div className="special-container">
             <div className="special-div">

@@ -261,6 +261,14 @@ margin-left: 20px;
   }
 @media only screen and (max-width: 1038px) {
 
+  .App {
+    width: 100vw;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
   .special-container, .bottom-div{
     align-items: center;
     flex-flow: column wrap;
@@ -522,7 +530,7 @@ font-size: 24px;
 }
 
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 480px){
   .App {
     width: 100vw;
   }
@@ -630,7 +638,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* General sidebar styles */
 .bm-menu {
   background: #F2F2F2;
-  padding: 2.5em 1.5em 0;
+  padding: 2.5em 1vw 0;
   font-size: 2em;
   overflow: hidden;
   width: 60vw;
