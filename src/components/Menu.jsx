@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function ElSushi() {
+export default function Menu() {
   return (
-    <div className="menu-border">
+    <div id="menu" className="menu-border">
       <div className="special-container">
         <div className="special-div">
           <h3>menu</h3>
