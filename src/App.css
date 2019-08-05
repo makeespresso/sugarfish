@@ -391,11 +391,32 @@ font-size: 24px;
 
 
 @media only screen and (max-width: 420px){
-
+  .App {
+    width: 100vw;
+  }
 
   .navbar-link {
     display: none;
   }
+
+
+  /* **STORY MEDIA QUERY** */
+  .banner-title{
+    font-size: 1.25rem;
+  }
+  .story-page{
+    display:block;
+  }
+  .chef{
+    padding-top: 28px;
+    width:100%;
+  }
+ .story-text {
+   font-size: 1.0625rem;
+    width:100%;
+   text-align: center;
+   padding-top: 15px;
+ } 
 
   /* * * LOCATION * * */
 
@@ -431,8 +452,8 @@ font-size: 24px;
   position: fixed;
   width: 25px;
   height: 20px;
-  left: 12vw;
-  top: 1vh;
+  left: 6vw;
+  top: 1.5vh;
 }
 
 /* Color/shape of burger icon bars */
