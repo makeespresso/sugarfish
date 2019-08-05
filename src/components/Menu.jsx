@@ -5,7 +5,7 @@ export default function Menu() {
     <div id="menu" className="menu-border">
       <div className="special-container">
         <div className="special-div">
-          <h3>menu</h3>
+          <h3>TURST ME</h3>
           <p>Organic Edamame</p>
           <p>Tuna Sashimi</p>
           <p>Albacore Sushi (2-pc)</p>
@@ -18,7 +18,7 @@ export default function Menu() {
           <h4>$40</h4>
         </div>
         <div className="special-div">
-          <h3>menu</h3>
+          <h3>TURST ME LITE</h3>
           <p>Tuna Sashimi</p>
           <p>Albacore Sushi (2-pc)</p>
           <p>Organic Edamame</p>
@@ -28,10 +28,10 @@ export default function Menu() {
           <p>Sea Bass Sushi (1-pc)</p>
           <p>NZ Sea Bream* Sushi (1-pc)</p>
           <p>Crab Hand Roll</p>
-          <h4>$40</h4>
+          <h4>$28</h4>
         </div>
         <div className="special-div">
-          <h3>menu</h3>
+          <h3>THE NOZAWA</h3>
           <p>Organic Edamame</p>
           <p>Tuna Sashimi</p>
           <p>Albacore Sushi (2-pc)</p>
@@ -41,7 +41,7 @@ export default function Menu() {
           <p>Sea Bass Sushi (1-pc)</p>
           <p>NZ Sea Bream* Sushi (1-pc)</p>
           <p>Crab Hand Roll</p>
-          <h4>$40</h4>
+          <h4>$52</h4>
         </div>
 
       </div>
