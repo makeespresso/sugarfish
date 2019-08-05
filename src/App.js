@@ -7,15 +7,19 @@ import Story from './components/Story';
 import Footer from './components/Footer';
 import Location from './components/Location';
 import PicCarousel from './components/PicCarousel';
+import ElSushi from './components/ElSushi';
 
 function App() {
   return (
     <div className="App">
+
+      {/* <Menu/> */}
+
       <NavBar />
       <Header />
       <PicCarousel />
       <Story />
-      {/* <Menu /> */}
+      <ElSushi />
       <Location />
       <Footer />
     </div>
