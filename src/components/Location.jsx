@@ -4,7 +4,7 @@ export default () => {
   return (
     <div id="location">
       <div className="banner story-banner">
-        <h1 className="banner-title ">Location</h1>
+        <h1 className="banner-title ">LOCATION</h1>
         <img src="/img/desktop_view_location_banner.png" />
       </div>
       <div className="location-section">
