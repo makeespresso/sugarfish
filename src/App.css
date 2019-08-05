@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Quattrocento Sans", sans-serif;
   /* max-width: 1440px; */
   /* text-align: center; */
 }
@@ -146,6 +147,8 @@ img {
 
 .menu-border {
   border: 1px solid #000000;
+  font-family: QuattrocentoSans;
+  margin-bottom: 1rem;
 }
 
 .special-container{
@@ -163,35 +166,44 @@ margin: 1.5rem;
 align-items: center;
 justify-content: flex-start;
 flex-flow: column wrap;
-background: lightsalmon;
 font-family: QuattrocentoSans;
 border: 1px solid #000000;
 min-width: 227.89px;
 max-width: 378px;
 }
 
-.special-div h3{
+.special-div h3, .bottom-div h3{
 font-weight: bold;
 text-transform: uppercase;
+padding: 1rem;
 }
-.special-div h4{
-color: red;
+.special-div h4, .bottom-div h4{
+padding: 1rem;
 }
-.special-div p{
+
+.special-div p, .bottom-div p{
 line-height: .3rem;
 }
 
 .bottom-div{
 width: 25%;
 display: flex;
-margin: 0 1.5rem;
+margin:  1.5rem;
 align-items: center;
 justify-content: flex-start;
 flex-flow: column wrap;
-background: lightblue;
 font-family: QuattrocentoSans;
 min-width: 227.89px;
 max-width: 378px;
+}
+
+.bottom-div h6{
+  margin-top: 1rem;
+  font-weight: 800;
+  
+}
+.just-eat-rigth-div p span{
+margin-left: 20px;
 }
 
 .just-eat-container{
@@ -203,24 +215,27 @@ max-width: 378px;
   flex-flow: column wrap;
 }
 
+.extra-space{
+  line-height: 3rem;
+}
+
 .just-eat-bottom{
-  background-color: red;
+  min-width: 261.5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
   line-height: .3rem;
-  margin-top: 1.3rem; 
+  margin-top: 1rem;
 }
 
 .inner-menu{
   /* display: flex;
   align-items: flex-start;
   flex-flow: column wrap; */
-  background: lightblue;
-  font-family: QuattrocentoSans;
   line-height: .3rem;
   margin: .3rem;
+
 }
 
 .inner-menu p span{
@@ -232,9 +247,20 @@ max-width: 378px;
   line-height: 2rem;
 }
 
-@media only screen and (max-width: 768px) {
+.limited-menu{
+  justify-content: space-between;
+  width: 100%;
+  line-height: .3rem;
+  margin-top: 1.3rem; 
+}
 
-  .special-container{
+.limited-menu span{
+  float: right;
+  padding: 0 2vw;
+  }
+@media only screen and (max-width: 1038px) {
+
+  .special-container, .bottom-div{
     align-items: center;
     flex-flow: column wrap;
   }

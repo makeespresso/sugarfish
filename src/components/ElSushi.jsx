@@ -48,7 +48,7 @@ export default function ElSushi() {
       <div className="special-container">
         <div className="bottom-div">
           <div className="inner-menu">
-            <p><b>Sashimi + Edamame</b></p>
+            <p className="extra-space"><b>Sashimi + Edamame</b></p>
             <p>Organic Edamame <span>$3.50</span></p>
             <p>Salmon Sashimi <span>$9.25</span></p>
             <p>Tuna Sashimi <span>$10.00</span></p>
@@ -74,7 +74,7 @@ export default function ElSushi() {
           </div>
           <div className="just-eat-bottom">
             <div className="just-eat-left-div">
-              <p><b>Hand Rolls & Cut Rolls</b></p>
+              <p className="extra-space"><b>Hand Rolls & Cut Rolls</b></p>
               <p>Cucumber</p>
               <p>Bay Scallops</p>
               <p>Salmon</p>
@@ -85,7 +85,7 @@ export default function ElSushi() {
               <p>Split Cut Roll</p>
             </div>
             <div className="just-eat-right-div">
-              <p><small><b>Hand</b></small> <span><small><b>Cut 8-pc</b></small></span></p>
+              <p className="extra-space"><small><b>Hand</b></small> <span><small><b>Cut 8-pc</b></small></span></p>
               <p>$5.25 <span>$9.50</span></p>
               <p>$5.75 <span>$11.25</span></p>
               <p>$5.75 <span>$11.25</span></p>
@@ -93,13 +93,13 @@ export default function ElSushi() {
               <p>$6.50 <span>$12.25</span></p>
               <p>$6.50 <span>$12.25</span></p>
               <p>$9.50 <span>$18.25</span></p>
-              <p>$10.00-$16.50</p>
+              <p>$16.50</p>
             </div>
           </div>
         </div>
         <div className="bottom-div">
-          <h4>LIMITED AVAILABILITY ITEMS</h4>
-          <div>
+          <h6>LIMITED AVAILABILITY ITEMS</h6>
+          <div className="limited-menu">
             <p>Albacore Belly <span>$7.50</span></p>
             <p>Kampachi<span>$8.00</span></p>
             <p>NZ Sea Bream* with Shiso<span>$8.00</span></p>
