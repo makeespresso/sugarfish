@@ -6,7 +6,7 @@ import Story from './components/Story';
 import Footer from './components/Footer';
 import Location from './components/Location';
 import PicCarousel from './components/PicCarousel';
-import ElSushi from './components/ElSushi';
+import Menu from './components/Menu';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Header />
       <PicCarousel />
       <Story />
-      <ElSushi />
+      <Menu />
       <Location />
       <Footer />
     </div>
