@@ -401,7 +401,7 @@ font-size: 24px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 5%;
-  margin-top: 5%;
+  margin-top: 12%;
   box-sizing: border-box;
   /* padding: 0 10% 0 10%; */
 }
@@ -434,7 +434,7 @@ font-size: 24px;
 }
 
 .location-img-top {
-  margin-bottom: 34px;
+  margin-bottom: 4vh;
 }
 
 .location-info {
@@ -456,13 +456,17 @@ font-size: 24px;
   margin: 0;
 }
 
-.location-info img {
-  width: 75px;
-}
-
 .location-info h3 {
   font-size: 3vw;
   margin-top: 0;
+}
+
+.map {
+  width: 3.2vw;
+}
+
+.clock {
+  width: 4.5vw;
 }
 
 /* * FOOTER * FOOTER * FOOTER * FOOTER * FOOTER * FOOTER * FOOTER */
@@ -498,6 +502,8 @@ font-size: 24px;
   font-size: 1.7vw;
 }
 
+
+
 .social-media {
   width: 20%;
   display: flex;
@@ -510,19 +516,69 @@ font-size: 24px;
 
 
 @media only screen and (max-width: 420px){
+  .App {
+    width: 100vw;
+  }
 
   .navbar-link {
     display: none;
   }
 
+
+  /* **STORY MEDIA QUERY** */
+  .banner-title{
+    font-size: 1.25rem;
+  }
+  .story-page{
+    display:block;
+  }
+  .chef{
+    padding-top: 28px;
+    width:100%;
+  }
+ .story-text {
+   font-size: 1.0625rem;
+    width:100%;
+   text-align: center;
+   padding-top: 15px;
+ } 
+
+  /* * * LOCATION * * */
+
+
+  .location-section {
+    margin-top: 3vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .location-img-top {
+    margin-bottom: 1vh;
+  }
+
+  .location-info {
+    margin-top: 1vh;
+    font-size: 2.5vw;
+  }
+
+  .location-info h3 {
+    font-size: 4vw;
+  }
+
+  .location-info div {
+    margin: .5vh 0;
+  }
+
 /* * BURGER * BURGER * BURGER * BURGER * BURGER * BURGER * BURGER */
 
 .bm-burger-button {
+  display: initial;
   position: fixed;
-  width: 36px;
-  height: 30px;
-  left: 30px;
-  top: 30px;
+  width: 25px;
+  height: 20px;
+  left: 6vw;
+  top: 1.5vh;
 }
 
 /* Color/shape of burger icon bars */
@@ -532,13 +588,14 @@ font-size: 24px;
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #a90000;
+  background: #373a47;
 }
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
   height: 24px;
   width: 24px;
+  left: 49vw;
 }
 
 /* Color/shape of close button cross */
@@ -557,12 +614,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #FFFFFF;
+  background: #F2F2F2;
   padding: 2.5em 1.5em 0;
   font-size: 2em;
   overflow: hidden;
-  width: 80vw;
-  text-align: left;
+  width: 60vw;
+  text-align: center;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -579,7 +636,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Individual item */
 .bm-item {
   display: inline-block;
-  margin-bottom: 1em;
+  margin-bottom: 2.5vh;
 }
 
 /* Styling of overlay */
